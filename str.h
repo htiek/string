@@ -254,7 +254,7 @@ public:
      * where the given delimiter is provided.
      * @bigoh O(n)
      */
-    Vector<String> split(StringView delimiter) const;
+    Vector<String> split(StringView delimiter = ' ') const;
 
     /**
      * Joins the given Vector<String> together into a single String,
